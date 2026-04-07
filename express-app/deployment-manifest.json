@@ -14,7 +14,7 @@
   ],
   "compute": {
     "compute": {
-      "runtime": "nodejs22.x",
+      "runtime": "NodeJs-22.x",
       "directory": ".",
       "entrypoint": "server.js"
     }
