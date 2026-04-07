@@ -5,7 +5,7 @@
       "source": "/(.*)",
       "target": {
         "kind": "compute",
-        "computeName": "default"
+        "computeName": "compute"
       },
       "fallback": {
         "kind": "static"
@@ -13,7 +13,7 @@
     }
   ],
   "compute": {
-    "default": {
+    "compute": {
       "runtime": "NodeJs-22.x",
       "directory": ".",
       "entrypoint": "server.js"
